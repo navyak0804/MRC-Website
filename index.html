@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>HOSA MRC Team 1 Innovation Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f87c267dc.js" crossorigin="anonymous"></script>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="Georgia_HOSA_Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="guides.html">GUIDES</a></li>
+                <li><a href="blogs.html">BLOGS</a></li>
+                <li><a href="impact.html">IMPACT</a></li>
+                <li><a href="plans.html">EMERGENCY PLAN TEMPLATE</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+     <h1>HOSA MRC Team 1 Innovation Academy</h1>
+     <p>A group of highschool students motivated to improve<br>emergency prepardness with HOSA and MRC!<p>
+    <a href="https://fe9f3996ef9d3faf.gradio.app" class="hero-btn">View Latest Blog Post</a>
+</div>
+    
+    </section>
+<!--Course-->
+
+<section class="mission">
+    <br>
+    <h1>Our Mission</h1>
+    <br>
+    <img src="HOSA MRC.png" class="hospital">
+    <br>
+    <br>
+    <p>As HOSA-Future Health Professionals, our mission is to enhance healthcare knowledge, develop leadership skills, and actively contribute to community well-being. One of the most critical aspects of healthcare is emergency preparedness—ensuring individuals and communities are ready to respond effectively to disasters and medical crises. Through our partnership with the Medical Reserve Corps (MRC), our team is working to increase awareness, provide training, and engage in community initiatives that strengthen emergency preparedness and response.</p>
+    <br>
+
+
+</section>
+
+<!--Java Script for toggle menu -->
+
+ <script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+ </script>  
+
+</body>
+</html>
